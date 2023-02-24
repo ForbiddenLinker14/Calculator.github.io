@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+nav{
+  background-color: rgb(0, 0, 0);
+  color: rgb(151, 172, 79);
+  height: 65px;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  font-family: 'Roboto', sans-serif;
+}
+#calculator {
+  width: 253px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#display {
+  width: 98.6%;
+  height: 50px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    background-color: #c3e4cd;
+  }
+  
+  #clear {
+    background-color: #f17171;
+  }
+  
+  #equals {
+    background-color: #4dff4dc2;
+  }
+  
+  #calculator {
+    background-color: rgb(0, 0, 0);
+  }
